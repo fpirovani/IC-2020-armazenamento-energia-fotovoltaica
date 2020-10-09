@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
   //para mais portas (sensores) basta replicar as próximas duas linhas abaixo 
   pinMode("número porta a ser utilizada",OUTPUT);
-  digitalWrite(7,HIGH);
+  digitalWrite("número porta a ser utilizada",HIGH);
 
 }
 
